@@ -1,0 +1,26 @@
+<label>Kredi Tutarı</label>
+<br>
+<input [(ngModel)]="krediTutari">
+<br>
+<br>
+<label>Vade</label>
+<br>
+<input [(ngModel)]="vade" >
+<br>
+<br>
+<button (click)="hesapla()" >Hesapla</button>
+<hr>
+<br>
+<label> aylık ödemeniz</label>
+<br>
+<input [(ngModel)]="aylikOdemeniz" >
+<br>
+<br>
+<label [(ngModel)]="aylikFaizTutari">aylık Faiz Oranı:</label>
+<br>
+<input [(ngModel)]="aylikFaizTutari" >
+<br>
+<br>
+<label>Toplam Geri Ödemeniz:</label>
+<br>
+<input [(ngModel)]="toplamGeriOdemeniz" >
